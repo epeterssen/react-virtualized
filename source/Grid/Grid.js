@@ -255,7 +255,7 @@ type State = {
  * Renders tabular data with virtualization along the vertical and horizontal axes.
  * Row heights and column widths must be known ahead of time and specified as properties.
  */
-class Grid extends React.PureComponent<Props, State> {
+class Grid extends React.Component<Props, State> {
   static defaultProps = {
     'aria-label': 'grid',
     'aria-readonly': true,
