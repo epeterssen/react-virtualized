@@ -96,7 +96,7 @@ type Props = {
   width: number,
 };
 
-export default class List extends React.PureComponent<Props> {
+export default class List extends React.Component<Props> {
   static defaultProps = {
     autoHeight: false,
     estimatedRowSize: 30,
